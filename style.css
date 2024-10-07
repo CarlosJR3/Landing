@@ -112,7 +112,32 @@ hr{
 .botao-container{
     width: 100%;
     max-width: 1120px;
-    padding: 1rem;
     margin: auto;
     transform: translate("0,-50%");
+}
+button{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #a45a49;
+}
+
+.receitas{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+.receitas-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.receitas-titulo{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff2e7;
 }
